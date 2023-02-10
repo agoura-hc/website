@@ -63,3 +63,28 @@ body {
     font-size: 2em;
     padding: 0.2em;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+}
+
+img, button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient(120deg, blue, green);
+    background-image: linear-gradient(120deg, rgb(0, 238, 255), rgb(230, 96, 96));
+
+    transition: transform 0.7s ease-in-out;
+}
+button:hover {
+    transform: rotate(360deg);
+}
