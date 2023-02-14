@@ -1,3 +1,3 @@
 $().ready(function() {
-    $("#navhold").load("/website/components/nav.html")
+    $("#navhold").load("/components/nav.html")
 })
